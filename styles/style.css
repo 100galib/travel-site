@@ -141,8 +141,62 @@
     justify-items: center;
     align-content: center;
     margin-top: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
+
+.sub-category-container{
+    box-shadow: 0px 0 10px rgb(65, 63, 63);
+    margin-bottom: 3rem;
+}
+
 .sub-category-container img{
     height: 250px;
     max-width: 350px;
+}
+
+.body-text{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.body-text h3{
+    font-size: 1.5rem;
+    color: rgb(49, 47, 47);
+}
+
+.body-text p{
+    font-size: 1.5rem;
+    color: #0081C9;
+}
+
+.rating{
+    font-size: 1.2rem;
+    padding: 0 1rem;
+}
+
+.categories-container button{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    background-color: #5BC0F8;
+    color: #ffffff;
+    border: none;
+    font-size: 1rem;
+}
+
+.sub-description{
+    max-width: 350px;
+    padding: 1rem 1rem;
+}
+
+.categories-container svg{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 10px;
+    color: #ffffff;
 }
