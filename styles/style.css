@@ -81,12 +81,9 @@
 /* Package Area */
 
 .top-header-text{
-    padding-top: 5rem;
-}
-
-.top-header-text{
     width: 40%;
     margin: 0 auto;
+    padding-top: 3rem;
 }
 
 .top-header-text h2{
@@ -101,7 +98,7 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-content: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 
 .container{
@@ -142,7 +139,10 @@
     align-content: center;
     margin-top: 5rem;
     font-family: Arial, Helvetica, sans-serif;
+}
 
+.categories-container a{
+    text-decoration: none;
 }
 
 .sub-category-container{
@@ -152,7 +152,12 @@
 
 .sub-category-container img{
     height: 250px;
-    max-width: 350px;
+    width: 350px;
+    transition: 0.3s all ease-in-out;
+}
+
+.sub-category-container img:hover{
+    transform: scale(1.1);
 }
 
 .body-text{
@@ -175,6 +180,7 @@
 .rating{
     font-size: 1.2rem;
     padding: 0 1rem;
+    color: rgb(70, 63, 63);
 }
 
 .categories-container button{
@@ -192,11 +198,138 @@
 .sub-description{
     max-width: 350px;
     padding: 1rem 1rem;
+    color: rgb(70, 63, 63);
 }
 
 .categories-container svg{
     width: 1rem;
     height: 1rem;
     margin-right: 10px;
+}
+
+/* Latest News Section */
+
+
+.latest-news{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 9rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4rem;
+
+}
+.left-section-news{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.left-section-news img{
+    width: 100px;
+    height: 100px;
+    margin-right: 1em;
+    border-radius: 5px;
+}
+.left-section-news a{
+    text-decoration: none;
+    color: rgb(49, 46, 46);
+}
+.lates-date{
+    display: flex;
+    margin-top: 1rem;
+}
+.date-news{
+    margin-right: 10px;
+    color: #5BC0F8;
+}
+.right-section-news{
+    max-width: 500px;
+}
+
+.right-section-news img{
+    width: 100%;
+    height: 250px;
+}
+.right-section-news a{
+    text-decoration: none;
+    color: black;
+}
+.right-section-news p{
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: rgb(71, 65, 65);
+}
+.footer{
+    background-color: #1c1f20;
+    margin-top: 3rem;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-section{
+    text-align: center;
+}
+.logo-section img{
+    max-width: 200px;
+    max-height: 150px;
+}
+.logo-section h1{
+    font-size: 1rem;
+    color: #696d6e;
+    text-align: left;
+}
+.logo-section li{
+    list-style-type: none;
+    text-align: left;
+    margin: 5px 0;
     color: #ffffff;
 }
+.post-section h1{
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+.post-section a{
+    text-decoration: none;
+    color: #696d6e;
+}
+.post-section p{
+    margin-bottom: 20px;
+}
+.post-section h2:hover{
+transition: 0.2s all ease-out;
+}
+.post-section h2:hover{
+    color: #FFC93C;
+}
+
+.subscribe h1{
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+.subscribe p{
+    font-size: 1rem;
+    color: #696d6e;
+    margin-bottom: 1rem;
+}
+.subscribe input{
+    display: block;
+    padding: 10px 30px;
+    margin: 5px 0;
+}
+.submit{
+    background-color: #0081C9;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+}
+
+.instragram h1{
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
